@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Selamat Datang</title>
+</head>
+<body>
+	<form action="proses.php" method="post" enctype="multipart/form-data">
+		<table>
+			<tr>
+				<td>Nama</td>
+				<td>:</td>
+				<td><input type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td>Hobi</td>
+				<td>:</td>
+				<td>
+					<input type="checkbox" name="hobi[]" value="Olahraga">&nbsp;Olahraga<br>
+					<input type="checkbox" name="hobi[]" value="Musik">&nbsp;Musik<br>
+					<input type="checkbox" name="hobi[]" value="Menggambar">&nbsp;Menggambar<br>
+					<input type="checkbox" name="hobi[]" value="Membaca">&nbsp;Membaca<br>
+					<input type="checkbox" name="hobi[]" value="Menonton">&nbsp;Menonton<br>
+					<input type="checkbox" name="hobi[]" value="Seni">&nbsp;Seni<br>
+					<input type="checkbox" name="hobi[]" value="Budaya">&nbsp;Budaya
+				</td>
+			</tr>
+			<tr>
+				<td>Upload</td>
+				<td>:</td>
+				<td><input type="file" name="image" id="image"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><input type="submit" value="Submit"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
